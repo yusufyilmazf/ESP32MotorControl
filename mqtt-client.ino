@@ -80,7 +80,7 @@ void setup() {
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
 
-  /* configure the MQTT server with IPaddress and port */
+  /* configure the MQTT server with IP address and port */
   client.setServer(mqtt_server, 1883);
   /* this receivedCallback function will be invoked 
   when client received subscribed topic */
